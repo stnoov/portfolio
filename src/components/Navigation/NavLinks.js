@@ -4,7 +4,8 @@ const Links = styled.ul`
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
-
+    visibility: ${({ visible }) => visible ? 'visible' : 'hidden'};
+  
     li {
       padding: 18px 10px;
     }
@@ -36,9 +37,9 @@ const Links = styled.ul`
 `
 
 
-export default function NavLinks({open}) {
+export default function NavLinks({open, visible}) {
     return (
-        <Links open={open}>
+        <Links open={open} visible={visible}>
             <li>HOME</li>
             <li>ABOUT</li>
             <li>PORTFOLIO</li>

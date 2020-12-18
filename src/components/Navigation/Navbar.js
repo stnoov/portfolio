@@ -10,25 +10,43 @@ const Nav = styled.nav`
   justify-content: space-between;
   background-color: #262526;
   color: #D7D8DA;
-  border-bottom: 1px solid #D7D8DA;
   position: fixed;
   top: 0;
   
   .logotype {
     padding: 12px 0;
+    cursor: pointer;
     font-size: 24px;
     line-height: 0.8;
+    visibility: ${({ visible }) => visible ? 'visible' : 'hidden'};
   }
+  
 `
 
 export default function Navbar() {
+
+
+    const [visible, setVisible] = React.useState(false)
+
+    const handleScroll = () => {
+        setVisible(true)
+        if (window.scrollY === 0) {
+            setVisible(false)
+            window.addEventListener('scroll', handleScroll);
+        }
+    }
+
+    React.useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+    }, [])
+
     return (
-        <Nav>
+        <Nav visible={visible}>
             <div className="logotype">
                 ARTEM SITNOV<br/>
                 <small>Web developer</small>
             </div>
-            <BurgerMenu />
+            <BurgerMenu visible={visible}/>
         </Nav>
     )
 }

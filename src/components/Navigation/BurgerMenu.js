@@ -12,6 +12,8 @@ const StyledButton = styled.div`
     flex-flow: column nowrap;
     z-index: 20;
     display: none;
+    visibility: ${({ visible }) => visible ? 'visible' : 'hidden'};
+  
 
   @media (max-width: 768px) {
     display: flex;
@@ -39,18 +41,18 @@ const StyledButton = styled.div`
   }
 `;
 
-export default function BurgerMenu () {
+export default function BurgerMenu ({visible}) {
 
     const [open, setOpen] = React.useState(false)
 
     return (
         <>
-            <StyledButton open={open} onClick={() => setOpen(!open)}>
+            <StyledButton open={open} onClick={() => setOpen(!open)} visible={visible}>
                 <div />
                 <div />
                 <div />
             </StyledButton>
-            <NavLinks open={open} />
+            <NavLinks open={open} visible={visible} />
         </>
     )
 }
