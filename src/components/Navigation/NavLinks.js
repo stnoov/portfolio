@@ -8,6 +8,7 @@ const Links = styled.ul`
   
     li {
       padding: 18px 10px;
+      cursor: pointer;
     }
 
   @media (max-width: 768px) {
@@ -24,7 +25,7 @@ const Links = styled.ul`
 
           li {
             padding:18px 40px;
-            
+                      
           }
     
           li:hover {
@@ -40,10 +41,10 @@ const Links = styled.ul`
 export default function NavLinks({open, visible}) {
     return (
         <Links open={open} visible={visible}>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PORTFOLIO</li>
-            <li>CONTACT</li>
+            <li onClick={() => window.scrollTo({top: 0, left: 0, behavior: "smooth"})}>HOME</li>
+            <li onClick={() => document.getElementById('about-section').scrollIntoView({behavior: "smooth"})}>ABOUT</li>
+            <li onClick={() => document.getElementById('portfolio-section').scrollIntoView({behavior: "smooth"})}>PORTFOLIO</li>
+            <li onClick={() => document.getElementById('contact-section').scrollIntoView({behavior: "smooth"})}>CONTACT</li>
         </Links>
     )
 }

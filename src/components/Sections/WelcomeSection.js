@@ -13,11 +13,12 @@ const Welcome = styled.div`
     .welcome-text {
       font-size: 24px;
       justify-self: flex-start;
+      margin-top: -55px;
     }
   
     #about-section {
       align-self: flex-end;
-      padding-bottom: 55px;
+      padding-bottom: 40px;
     }
 `
 

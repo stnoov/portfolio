@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Sections/AboutSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sections/ContactSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/okiedokie.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/BurgerMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/BurgerMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sections/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/AboutSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sections/WelcomeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/WelcomeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src\images" />
       <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src" />
       <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src\components" />
     </key>
@@ -71,8 +68,20 @@
       <updated>1608221561632</updated>
       <workItem from="1608221563006" duration="7148000" />
       <workItem from="1608292367200" duration="9283000" />
-      <workItem from="1608318644229" duration="5243000" />
+      <workItem from="1608318644229" duration="6891000" />
+      <workItem from="1608467771521" duration="3962000" />
+      <workItem from="1608474993025" duration="646000" />
+      <workItem from="1608483582273" duration="3963000" />
+      <workItem from="1608494439798" duration="4781000" />
     </task>
+    <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
+      <created>1608324202787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608324202787</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +98,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="All-in-One commit: Add sections, add anchors to sections, small changes to design" />
+    <option name="LAST_COMMIT_MESSAGE" value="All-in-One commit: Add sections, add anchors to sections, small changes to design" />
   </component>
 </project>

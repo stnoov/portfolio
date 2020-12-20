@@ -4,3 +4,25 @@
     box-sizing: border-box;
     font-family: 'Ropa Sans', sans-serif;
 }
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    justify-items: center;
+    align-items: center;
+}
