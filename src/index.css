@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Ropa Sans', sans-serif;
 }
-
+ul {
+    list-style-type: none;
+}
 .container {
     display: flex;
     margin-top: 50px;
@@ -25,4 +27,11 @@
     flex-basis: 100%;
     justify-items: center;
     align-items: center;
+    padding: 20px
+}
+
+@media (max-width: 768px) {
+    * {
+        font-size: 12px;
+    }
 }

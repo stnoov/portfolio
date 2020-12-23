@@ -9,10 +9,6 @@ const About = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-    ul {
-      list-style-type: none;
-    }
   
     .about-header-text {
       background-color: black;
@@ -73,10 +69,9 @@ export default function AboutSection() {
                         <h3 className='section-header'>ABOUT ME</h3>
                         <div className="about-text">
                             <p>
-                                Hello, I'm Artem, junior Web Developer. I have started my path in computer science in 2016, studying in college in Toronto, Canada. At that time my major was system administration.
-                                In 2019 I moved and based in Oulu, Finland. Here I decided to continue studying in that area and applied for Web Development at OAMK. First semesters really inspired me for
-                                extra work and self-studying. Now I have a strong desire to implement acquired skills in a real-work environment and become a part of the team of like-minded people to make a big step forward on my path</p>
-                        </div>
+                                Hello, I'm Artem, a Junior Web Developer. I have started my path in computer science in 2016, studying in college in Toronto, Canada. At that time my major was system administration. In 2019 I moved and am based in Oulu, Finland. Here I decided to continue studying in that area and applied for Web Development at OAMK. The first semesters inspired me for extra work and self-studying. Now I have a strong desire to implement acquired skills in a real-work environment and become a part of a team of like-minded people to make a big step forward on my path
+                            </p>
+                            </div>
                     </div>
                     <div className="column">
                         <h3 className='section-header'>EDUCATION</h3>
