@@ -32,7 +32,7 @@ export default function Navbar() {
 
     const handleScroll = () => {
         setVisible(true)
-        if (window.scrollY === 0) {
+        if (window.scrollY === 0 || window.scrollY < 0) {
             setVisible(false)
             setOpen(false)
             window.addEventListener('scroll', handleScroll);
