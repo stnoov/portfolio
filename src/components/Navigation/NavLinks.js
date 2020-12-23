@@ -38,13 +38,24 @@ const Links = styled.ul`
 `
 
 
-export default function NavLinks({open, visible}) {
+export default function NavLinks({open, visible, setOpen}) {
+
+    const jumpTo = (section) => {
+        if (section === 'home') {
+            window.scrollTo({top: 0, left: 0, behavior: "smooth"})
+            setOpen(false)
+        } else {
+            document.getElementById(section).scrollIntoView({behavior: "smooth"})
+            setOpen(false)
+        }
+
+    }
     return (
         <Links open={open} visible={visible}>
-            <li onClick={() => window.scrollTo({top: 0, left: 0, behavior: "smooth"})}>HOME</li>
-            <li onClick={() => document.getElementById('about-section').scrollIntoView({behavior: "smooth"})}>ABOUT</li>
-            <li onClick={() => document.getElementById('portfolio-section').scrollIntoView({behavior: "smooth"})}>PORTFOLIO</li>
-            <li onClick={() => document.getElementById('contact-section').scrollIntoView({behavior: "smooth"})}>CONTACT</li>
+            <li onClick={() => jumpTo('home')}>HOME</li>
+            <li onClick={() => jumpTo('about-section')}>ABOUT</li>
+            <li onClick={() => jumpTo('portfolio-section')}>PORTFOLIO</li>
+            <li onClick={() => jumpTo('contact-section')}>CONTACT</li>
         </Links>
     )
 }

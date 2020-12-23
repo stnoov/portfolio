@@ -28,10 +28,13 @@ export default function Navbar() {
 
     const [visible, setVisible] = React.useState(false)
 
+    const [open, setOpen] = React.useState(false)
+
     const handleScroll = () => {
         setVisible(true)
         if (window.scrollY === 0) {
             setVisible(false)
+            setOpen(false)
             window.addEventListener('scroll', handleScroll);
         }
     }
@@ -46,7 +49,7 @@ export default function Navbar() {
                 ARTEM SITNOV<br/>
                 <small>Web developer</small>
             </div>
-            <BurgerMenu visible={visible}/>
+            <BurgerMenu visible={visible} open={open} setOpen={setOpen}/>
         </Nav>
     )
 }

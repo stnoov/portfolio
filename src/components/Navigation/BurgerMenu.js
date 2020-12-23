@@ -41,9 +41,7 @@ const StyledButton = styled.div`
   }
 `;
 
-export default function BurgerMenu ({visible}) {
-
-    const [open, setOpen] = React.useState(false)
+export default function BurgerMenu ({visible, open, setOpen}) {
 
     return (
         <>
@@ -52,7 +50,7 @@ export default function BurgerMenu ({visible}) {
                 <div />
                 <div />
             </StyledButton>
-            <NavLinks open={open} visible={visible} />
+            <NavLinks open={open} setOpen={setOpen} visible={visible} />
         </>
     )
 }

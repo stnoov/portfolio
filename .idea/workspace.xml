@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/AboutSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/BurgerMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/BurgerMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavLinks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <workItem from="1608474993025" duration="646000" />
       <workItem from="1608483582273" duration="3963000" />
       <workItem from="1608494439798" duration="5608000" />
-      <workItem from="1608673101454" duration="4621000" />
+      <workItem from="1608673101454" duration="5894000" />
     </task>
     <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
       <created>1608324202787</created>
@@ -86,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608499495752</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes to mobile version">
+      <created>1608684232071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608684232071</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add images to the git">
+      <created>1608684721452</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608684721452</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +119,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="All-in-One commit: Add sections, add anchors to sections, small changes to design" />
     <MESSAGE value="All-in-One commit: Add basic info to the sections, initialize layout, add templates for portfolio section, optimize mobile version" />
-    <option name="LAST_COMMIT_MESSAGE" value="All-in-One commit: Add basic info to the sections, initialize layout, add templates for portfolio section, optimize mobile version" />
+    <MESSAGE value="Changes to mobile version" />
+    <MESSAGE value="Add images to the git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add images to the git" />
   </component>
 </project>
