@@ -9,6 +9,7 @@ const Welcome = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 0;
   
     .welcome-text {
       font-size: 24px;
