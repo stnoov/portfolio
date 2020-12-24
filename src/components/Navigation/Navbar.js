@@ -27,17 +27,17 @@ const Nav = styled.nav`
 
 export default function Navbar() {
 
-
     const [visible, setVisible] = React.useState(false)
 
     const [open, setOpen] = React.useState(false)
 
     const handleScroll = () => {
-        setVisible(true)
         if (window.scrollY <= 0) {
             setVisible(false)
             setOpen(false)
             window.addEventListener('scroll', handleScroll);
+        } else {
+            setVisible(true)
         }
     }
 
