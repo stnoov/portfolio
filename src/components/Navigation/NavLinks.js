@@ -25,7 +25,7 @@ const Links = styled.ul`
         padding-top: 3.5rem;
         transition: transform 0.3s ease-out;
         border-left: 1px solid white;
-        box-shadow: ${({ open }) => open ? '-200px 10px 300px rgba(0, 0, 0, 0.6)' : '0'};
+        box-shadow: ${({ open }) => open ? '-250px 0 0px rgba(0, 0, 0, 0.5), -500px 0 0px rgba(0, 0, 0, 0.5), -750px 0 0px rgba(0, 0, 0, 0.5)' : '0'};
     
           li {
             padding:18px 40px;
