@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/AboutSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" afterDir="false" />
-    </list>
+    <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +65,7 @@
       <workItem from="1608483582273" duration="3963000" />
       <workItem from="1608494439798" duration="5608000" />
       <workItem from="1608673101454" duration="6973000" />
-      <workItem from="1608823590522" duration="7419000" />
+      <workItem from="1608823590522" duration="7855000" />
     </task>
     <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
       <created>1608324202787</created>
@@ -142,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608829700624</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Change images to buttons in mobile view">
+      <created>1608831431015</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608831431015</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +173,7 @@
     <MESSAGE value="Add box shadow to the sidebar" />
     <MESSAGE value="Change box-shadow behaviour" />
     <MESSAGE value="Change box-shadow behaviour v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change box-shadow behaviour v2" />
+    <MESSAGE value="Change images to buttons in mobile view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change images to buttons in mobile view" />
   </component>
 </project>

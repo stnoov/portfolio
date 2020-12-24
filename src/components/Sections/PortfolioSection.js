@@ -63,7 +63,7 @@ const Portfolio = styled.div`
   }
   
   ul li {
-    padding: 2px
+    padding: 2px 0;
   }
   
   .project-description {
