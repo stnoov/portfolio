@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import BurgerMenu from "./BurgerMenu";
 
+
+
 const Nav = styled.nav`
   width: 100%;
   height: 55px;
@@ -32,7 +34,7 @@ export default function Navbar() {
 
     const handleScroll = () => {
         setVisible(true)
-        if (window.scrollY === 0 || window.scrollY < 0) {
+        if (window.scrollY <= 0) {
             setVisible(false)
             setOpen(false)
             window.addEventListener('scroll', handleScroll);
@@ -44,7 +46,7 @@ export default function Navbar() {
     }, [])
 
     return (
-        <Nav visible={visible}>
+        <Nav visible={visible} >
             <div className="logotype">
                 ARTEM SITNOV<br/>
                 <small>Web developer</small>

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="" />
+    <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navbar.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +71,8 @@
       <workItem from="1608474993025" duration="646000" />
       <workItem from="1608483582273" duration="3963000" />
       <workItem from="1608494439798" duration="5608000" />
-      <workItem from="1608673101454" duration="6206000" />
+      <workItem from="1608673101454" duration="6973000" />
+      <workItem from="1608823590522" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
       <created>1608324202787</created>
@@ -101,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608685350285</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change capture of scroll event">
+      <created>1608685666881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608685666881</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +140,7 @@
     <MESSAGE value="Changes to mobile version" />
     <MESSAGE value="Add images to the git" />
     <MESSAGE value="Changes to behaviour of sidebar in mobile version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to behaviour of sidebar in mobile version" />
+    <MESSAGE value="Change capture of scroll event" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change capture of scroll event" />
   </component>
 </project>
