@@ -52,6 +52,10 @@ const About = styled.div`
         .section-header {
           margin-top: 30px;
         }
+        .first-col {
+          margin-top: -90px;
+          }
+        }
   }
   
     
@@ -65,8 +69,8 @@ export default function AboutSection() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="column">
-                        <h3 className='section-header'>ABOUT ME</h3>
+                    <div className="column first-col">
+                        <h3 className='section-header '>ABOUT ME</h3>
                         <div className="about-text">
                             <p>
                                 Hello, I'm Artem, a Junior Web Developer. I have started my path in computer science in 2016, studying in college in Toronto, Canada. At that time my major was system administration. In 2019 I moved and am based in Oulu, Finland. Here I decided to continue studying in that area and applied for Web Development at OAMK. The first semesters inspired me for extra work and self-studying. Now I have a strong desire to implement acquired skills in a real-work environment and become a part of a team of like-minded people to make a big step forward on my path

@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import OkieDokie from '../../images/okiedokie.png'
 import GoElectrical from '../../images/go-electrical.png'
 import PCPal from '../../images/pcpal.png'
+import LanguageIcon from '@material-ui/icons/Language';
 
 const Portfolio = styled.div`
     width: 100%;
@@ -13,6 +14,21 @@ const Portfolio = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+  
+  .site-button {
+    display: none;
+    margin-top: 5px;
+    background-color: #262626;
+    border-color: #e7e7e7;
+    align-items: center;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .buttonIcon {
+    margin-right: 5px;
+  }
   
   .portfolio-header {
     margin-bottom: -50px;
@@ -29,7 +45,7 @@ const Portfolio = styled.div`
   }
   
   .portfolio-text {
-    max-width: 500px;
+    max-width: 600px;
     margin-top: 20px;
     text-align: justify;
   }
@@ -39,10 +55,15 @@ const Portfolio = styled.div`
     max-height: 182px;
     opacity: 0.7;
     z-index: 0;
-    border-radius: 100%;
+    border-radius: 10%;
     float: left;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: -10px;
+    margin-right: 20px;
+  }
+  
+  ul li {
+    padding: 2px
   }
   
   .project-description {
@@ -67,9 +88,10 @@ const Portfolio = styled.div`
       width: 450px;
     }
     .site-image {
-      margin: 25px 0;
-      width: 90px;
-      height: 90px;
+      display: none;
+    }
+    .site-button {
+      display: flex;
     }
     
   }
@@ -87,6 +109,7 @@ export default function PortfolioSection() {
                             <div className='project-description'>
                             <img src={OkieDokie} className='site-image' alt='okiedokie'/>
                             <h3 className='section-header'>OKIEDOKIE.CLUB</h3>
+                                <button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button>
                             <div className="portfolio-text">
                                 <ul>
                                     <li><b>Duration:</b> 2 months</li>
@@ -100,6 +123,7 @@ export default function PortfolioSection() {
                         <div className='project-description'>
                             <img src={GoElectrical} className='site-image' alt='okiedokie'/>
                             <h3 className='section-header'>GO ELECTRICAL</h3>
+                            <button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button>
                             <div className="portfolio-text">
                                 <ul>
                                     <li><b>Duration:</b> 1 month</li>
@@ -115,6 +139,7 @@ export default function PortfolioSection() {
                         <div className='project-description'>
                             <img src={PCPal} className='site-image' alt='okiedokie'/>
                             <h3 className='section-header'>PCPal</h3>
+                            <button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button>
                             <div className="portfolio-text">
                                 <ul>
                                     <li><b>Duration:</b> 1 month</li>
