@@ -14,6 +14,7 @@ const Nav = styled.nav`
   color: #D7D8DA;
   position: fixed;
   top: 0;
+  z-index: 1;
   
   .logotype {
     padding: 12px 0;

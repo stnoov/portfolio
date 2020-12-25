@@ -53,7 +53,6 @@ const Portfolio = styled.div`
   .site-image {
     max-width: 182px;
     max-height: 182px;
-    opacity: 0.7;
     z-index: 0;
     border-radius: 10%;
     float: left;
@@ -121,7 +120,7 @@ export default function PortfolioSection() {
                     </div>
                     <div className="column">
                         <div className='project-description'>
-                            <img src={GoElectrical} className='site-image' alt='okiedokie'/>
+                            <img src={GoElectrical} className='site-image' alt='GoElectrical'/>
                             <h3 className='section-header'>GO ELECTRICAL</h3>
                             <button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button>
                             <div className="portfolio-text">

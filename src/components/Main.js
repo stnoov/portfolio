@@ -4,9 +4,11 @@ import AboutSection from "./Sections/AboutSection";
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import PortfolioSection from "./Sections/PortfolioSection";
 import ContactSection from "./Sections/ContactSection";
+import FooterSection from "./Sections/Footer";
 
 const Page = styled.div`
   margin-top: 55px;
+  position: absolute;
   
   .next-section {
     position: fixed;
@@ -44,6 +46,7 @@ export default function Main () {
             <PortfolioSection />
             <ContactSection />
             <ExpandMoreIcon className='next-section' onClick={() => {ScrollNext({behavior: "smooth"})}} />
+            <FooterSection />
         </Page>
     )
 }
