@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import Gmail from '../../images/gmail.png'
 import Telegram from '../../images/telegram.svg'
 import LinkedIn from '../../images/linkedin.png'
-import GitHub from '../../images/github.webp'
+import GitHub from '../../images/github.png'
 
 const Contact = styled.div`
   height: calc(100vh - 55px);
@@ -79,7 +79,7 @@ export default function ContactSection() {
                 <div className="row">
                     <div className="column first-col">
                         <h3 className='section-header'>TELEGRAM</h3>
-                        <img src={Telegram} className='social-image' alt='gmail'/>
+                        <a target="_blank" href="https://t.me/stnoov"><img src={Telegram} className='social-image' alt='gmail'/></a>
                         <div className="contact-text">
                             <p>
                                 @STNOOV
@@ -88,23 +88,23 @@ export default function ContactSection() {
                     </div>
                     <div className="column">
                         <h3 className='section-header'>GMAIL</h3>
-                        <img src={Gmail} className='social-image' alt='gmail'/>
+                        <a href="mailto:stnoov@gmail.com"><img src={Gmail} className='social-image' alt='gmail'/></a>
                         <div className="contact-text education-section">
-                            STNOOV@GMAIL.COM
+                            stnoov@gmail.com
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="column">
                         <h3 className='section-header'>LINKEDIN</h3>
-                        <img src={LinkedIn} className='social-image' alt='LinkedIn'/>
+                        <a target="_blank" href="https://www.linkedin.com/in/asitnov/"><img src={LinkedIn} className='social-image' alt='LinkedIn'/></a>
                         <div className="contact-text">
                             /asitnov
                         </div>
                     </div>
                     <div className="column">
                         <h3 className='section-header'>GITHUB</h3>
-                        <img src={GitHub} className='social-image' alt='GitHub'/>
+                        <a target="_blank" href="https://github.com/stnoov"><img src={GitHub} className='social-image' alt='GitHub'/></a>
                         <div className="contact-text">
                             /stnoov
                         </div>

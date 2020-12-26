@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Sections/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sections/ContactSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/ContactSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/go-electrical.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/go-electrical.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/okiedokie.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/okiedokie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pcpal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/pcpal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sections/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gmail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gmail.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -39,6 +35,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src\images" />
       <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src" />
@@ -78,7 +77,7 @@
       <workItem from="1608673101454" duration="6973000" />
       <workItem from="1608823590522" duration="9458000" />
       <workItem from="1608849695872" duration="28000" />
-      <workItem from="1608916567077" duration="4936000" />
+      <workItem from="1608916567077" duration="10466000" />
     </task>
     <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
       <created>1608324202787</created>
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608831852768</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add contact section">
+      <created>1608922520128</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608922520128</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +201,7 @@
     <MESSAGE value="Change box-shadow behaviour v2" />
     <MESSAGE value="Change images to buttons in mobile view" />
     <MESSAGE value="Align li in portfolio section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Align li in portfolio section" />
+    <MESSAGE value="Add contact section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add contact section" />
   </component>
 </project>
