@@ -30,19 +30,7 @@ const Contact = styled.div`
     padding: 10px 250px;
     line-height: 15px;
   }
-
-  .site-button {
-    display: flex;
-    margin-top: 5px;
-    background-color: #262626;
-    font-size: 25px;
-    align-items: center;
-    color: white;
-    padding: 5px 10px;
-    cursor: pointer;
-    border: none;
-  }
-  
+    
   .contact-header {
     text-align: center;
   }

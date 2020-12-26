@@ -13,11 +13,8 @@ const Footer = styled.div`
       margin-top: 50px;
       color: white;
     }
-  
-    
-    
 
-  .site-button {
+  .cv-button {
     display: flex;
     margin-top: 5px;
     background-color: #262626;
@@ -28,12 +25,18 @@ const Footer = styled.div`
     cursor: pointer;
     border: 1px solid white;
   }
+
+  @media (max-width: 768px) {
+    .cv-button {
+      margin-top: 30px;
+    }
+  }
 `
 
 export default function FooterSection() {
     return (
     <Footer>
-        <a href="https://drive.google.com/file/d/10FTFKvJG8lltvr_Xf5_No3zigXNr91q0/view?usp=sharing" target="_blank"><button className='site-button'>Download CV</button></a>
+        <a href="https://drive.google.com/file/d/10FTFKvJG8lltvr_Xf5_No3zigXNr91q0/view?usp=sharing" target="_blank"><button className='cv-button'>Download CV</button></a>
         <small>Copyright © 2020 Artem Sitnov • Oulu based Web Developer</small>
     </Footer>
     )
