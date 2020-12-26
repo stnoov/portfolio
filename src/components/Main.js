@@ -8,7 +8,6 @@ import FooterSection from "./Sections/Footer";
 
 const Page = styled.div`
   margin-top: 55px;
-  position: absolute;
   
   .next-section {
     position: fixed;

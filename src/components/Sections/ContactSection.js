@@ -13,7 +13,8 @@ const Contact = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-bottom: 50vh;
+  padding-bottom: 30vh;
+  margin-bottom: -20vh;
 
   .contact-header-text {
     background-color: black;

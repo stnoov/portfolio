@@ -149,15 +149,7 @@ export default function PortfolioSection() {
                         </div>
                     </div>
                     <div className="column">
-                        <div className='project-description'>
-                            <img src={OkieDokie} className='site-image' alt='okiedokie'/>
-                            <h3 className='section-header'>OKIEDOKIE.CLUB REMASTERED</h3>
-                            <div className="portfolio-text">
-                                Duration: In progress
-                                Technologies used: Python Flask, Jinja2, SQLite, Bootstrap
-                                Designed and developed whole application: Login & Registration, Admin Panel, Payments, Booking System, Email notifications. Application is still operating and used for commercial purpose.
-
-                            </div>
+                        <div className='project-description plug'>
                         </div>
                     </div>
                 </div>
