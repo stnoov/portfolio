@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/ContactSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/ContactSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +71,7 @@
       <workItem from="1608673101454" duration="6973000" />
       <workItem from="1608823590522" duration="9458000" />
       <workItem from="1608849695872" duration="28000" />
-      <workItem from="1608916567077" duration="11867000" />
+      <workItem from="1608916567077" duration="12218000" />
     </task>
     <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
       <created>1608324202787</created>
@@ -185,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608942225762</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add links to footer">
+      <created>1608943157002</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608943157002</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +219,7 @@
     <MESSAGE value="Add contact section" />
     <MESSAGE value="Change pictures in contact section, add footer with CV and credentials" />
     <MESSAGE value="Small changes to footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small changes to footer" />
+    <MESSAGE value="Add links to footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add links to footer" />
   </component>
 </project>
