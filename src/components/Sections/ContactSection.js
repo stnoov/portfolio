@@ -62,6 +62,7 @@ const Contact = styled.div`
   @media (max-width: 768px) {
     font-size: 18px;
     margin-bottom: 100px;
+    height: calc(80vh - 55px);
     .section-header {
       padding: 10px 30px;
     }

@@ -14,9 +14,7 @@ const Footer = styled.div`
       color: white;
     }
   
-    a {
-      text-decoration: none;
-    }
+    
     
 
   .site-button {

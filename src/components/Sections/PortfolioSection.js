@@ -106,9 +106,9 @@ export default function PortfolioSection() {
                 <div className="row">
                     <div className="column">
                             <div className='project-description'>
-                            <img src={OkieDokie} className='site-image' alt='okiedokie'/>
+                                <a href="https://okiedokie.club/" target='_blank'><img src={OkieDokie} className='site-image' alt='okiedokie'/></a>
                             <h3 className='section-header'>OKIEDOKIE.CLUB</h3>
-                                <button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button>
+                                <a href="https://okiedokie.club/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
                             <div className="portfolio-text">
                                 <ul>
                                     <li><b>Duration:</b> 2 months</li>
@@ -120,9 +120,9 @@ export default function PortfolioSection() {
                     </div>
                     <div className="column">
                         <div className='project-description'>
-                            <img src={GoElectrical} className='site-image' alt='GoElectrical'/>
+                            <a href="https://go-electrical.netlify.app/" target='_blank'><img src={GoElectrical} className='site-image' alt='GoElectrical'/></a>
                             <h3 className='section-header'>GO ELECTRICAL</h3>
-                            <button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button>
+                            <a href="https://go-electrical.netlify.app/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
                             <div className="portfolio-text">
                                 <ul>
                                     <li><b>Duration:</b> 1 month</li>
@@ -136,9 +136,9 @@ export default function PortfolioSection() {
                 <div className="row">
                     <div className="column">
                         <div className='project-description'>
-                            <img src={PCPal} className='site-image' alt='okiedokie'/>
+                            <a href="https://pcpal.netlify.app/" target='_blank'><img src={PCPal} className='site-image' alt='okiedokie'/></a>
                             <h3 className='section-header'>PCPal</h3>
-                            <button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button>
+                            <a href="https://pcpal.netlify.app/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
                             <div className="portfolio-text">
                                 <ul>
                                     <li><b>Duration:</b> 1 month</li>
