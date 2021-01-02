@@ -6,7 +6,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 
 const Portfolio = styled.div`
     width: 100%;
-    height: calc(100vh - 55px);
+    height: calc(100vh - 50px);
     background-color: #262526;
     color: #D7D8DA;
     padding-top: 30px ;
@@ -59,6 +59,10 @@ const Portfolio = styled.div`
     padding: 10px;
     margin-top: -10px;
     margin-right: 20px;
+  }
+  
+  .site-image:hover {
+    opacity: 0.8;
   }
   
   ul li {
@@ -120,9 +124,9 @@ export default function PortfolioSection() {
                     </div>
                     <div className="column">
                         <div className='project-description'>
-                            <a href="https://go-electrical.netlify.app/" target='_blank'><img src={GoElectrical} className='site-image' alt='GoElectrical'/></a>
+                            <a href="https://goelectrical.netlify.app/" target='_blank'><img src={GoElectrical} className='site-image' alt='GoElectrical'/></a>
                             <h3 className='section-header'>GO ELECTRICAL</h3>
-                            <a href="https://go-electrical.netlify.app/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
+                            <a href="https://goelectrical.netlify.app/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
                             <div className="portfolio-text">
                                 <ul>
                                     <li><b>Duration:</b> 1 month</li>

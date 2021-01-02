@@ -32,7 +32,7 @@ const About = styled.div`
       display: flex;
       justify-self: flex-end;
       align-self: flex-end;
-      padding-top: 55px;
+      padding-top: 50px;
     }
   
   @media (max-width: 768px) {

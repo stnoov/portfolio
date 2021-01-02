@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="" />
+    <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +73,8 @@
       <workItem from="1608673101454" duration="6973000" />
       <workItem from="1608823590522" duration="9458000" />
       <workItem from="1608849695872" duration="28000" />
-      <workItem from="1608916567077" duration="12596000" />
+      <workItem from="1608916567077" duration="12914000" />
+      <workItem from="1608943941348" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
       <created>1608324202787</created>
@@ -192,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608943458234</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add margin to CV in mobile version">
+      <created>1608943804773</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608943804773</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +238,7 @@
     <MESSAGE value="Small changes to footer" />
     <MESSAGE value="Add links to footer" />
     <MESSAGE value="Change height of contact section in mobile version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change height of contact section in mobile version" />
+    <MESSAGE value="Add margin to CV in mobile version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add margin to CV in mobile version" />
   </component>
 </project>
