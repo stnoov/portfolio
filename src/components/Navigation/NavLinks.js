@@ -62,7 +62,6 @@ export default function NavLinks({open, visible, setOpen}) {
             <li onClick={() => jumpTo('home')}>HOME</li>
             <li onClick={() => jumpTo('about-section')}>ABOUT</li>
             <li onClick={() => jumpTo('portfolio-section')}>PORTFOLIO</li>
-            <li onClick={() => jumpTo('contact-section')}>CONTACT</li>
         </Links>
     )
 }

@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/react-pizza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/telegram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sections/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/AboutSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sections/ContactSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/ContactSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sections/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/PortfolioSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sections/WelcomeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/WelcomeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/github.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gmail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/gmail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/go-electrical.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/go-electrical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/okiedokie.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/okiedokie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pcpal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/pcpal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/telegram.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +36,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ln8an5s8cBkYwm1ZnTEz3jPlM4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -35,9 +61,10 @@
       <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src\images" />
-      <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src" />
       <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src\components" />
+      <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src" />
+      <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src\assets" />
+      <recent name="C:\Users\stnoo\WebstormProjects\portfolio\src\images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -75,6 +102,8 @@
       <workItem from="1608849695872" duration="28000" />
       <workItem from="1608916567077" duration="12914000" />
       <workItem from="1608943941348" duration="96000" />
+      <workItem from="1609675034163" duration="18000" />
+      <workItem from="1610977880518" duration="6742000" />
     </task>
     <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
       <created>1608324202787</created>
@@ -221,6 +250,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="All-in-One commit: Add sections, add anchors to sections, small changes to design" />
     <MESSAGE value="All-in-One commit: Add basic info to the sections, initialize layout, add templates for portfolio section, optimize mobile version" />
     <MESSAGE value="Changes to mobile version" />
@@ -240,5 +270,23 @@
     <MESSAGE value="Change height of contact section in mobile version" />
     <MESSAGE value="Add margin to CV in mobile version" />
     <option name="LAST_COMMIT_MESSAGE" value="Add margin to CV in mobile version" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Navigation/NavLinks.js</url>
+          <line>30</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Navigation/BurgerMenu.js</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

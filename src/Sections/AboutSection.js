@@ -85,6 +85,7 @@ export default function AboutSection() {
                                 <li><b>Bachelor of Engineering,</b> OAMK</li>
                                 <li><b>Coursework:</b> Full-stack web development</li>
                             </ul>
+                            <br />
                             <ul>
                                 <li><b>2016 — 2018</b></li>
                                 <li><b>Computer Engineering Technology,</b> Seneca college</li>

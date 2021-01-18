@@ -1,5 +1,5 @@
 import Navbar from "./components/Navigation/Navbar";
-import Main from "./components/Main";
+import Main from "./Main";
 
 function App() {
 

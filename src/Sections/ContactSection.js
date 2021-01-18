@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import Gmail from '../../images/gmail.png'
-import Telegram from '../../images/telegram.svg'
-import LinkedIn from '../../images/linkedin.png'
-import GitHub from '../../images/github.png'
+import Gmail from '../assets/images/gmail.png'
+import Telegram from '../assets/images/telegram.svg'
+import LinkedIn from '../assets/images/linkedin.png'
+import GitHub from '../assets/images/github.png'
 
 const Contact = styled.div`
   height: calc(100vh - 55px);

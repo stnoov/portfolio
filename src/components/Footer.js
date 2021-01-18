@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 const Footer = styled.div`
     width: 100%;
-    background-color: #262626;
+    background-color: white;
+    color: #262626;
     height: 20vh;
     display: flex;
     align-items: center;
@@ -11,19 +12,18 @@ const Footer = styled.div`
   
     small {
       margin-top: 50px;
-      color: white;
     }
 
   .cv-button {
     display: flex;
     margin-top: 5px;
-    background-color: #262626;
+    background-color: white;
+    color: #262626;
     font-size: 25px;
     align-items: center;
-    color: white;
     padding: 10px 20px;
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid #262626;
   }
 
   @media (max-width: 768px) {

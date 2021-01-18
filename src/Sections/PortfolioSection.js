@@ -1,7 +1,8 @@
 import styled from 'styled-components'
-import OkieDokie from '../../images/okiedokie.png'
-import GoElectrical from '../../images/go-electrical.png'
-import PCPal from '../../images/pcpal.png'
+import OkieDokie from '../assets/images/okiedokie.png'
+import GoElectrical from '../assets/images/go-electrical.png'
+import PCPal from '../assets/images/pcpal.png'
+import ReactPizza from '../assets/images/react-pizza.png'
 import LanguageIcon from '@material-ui/icons/Language';
 
 const Portfolio = styled.div`
@@ -153,7 +154,19 @@ export default function PortfolioSection() {
                         </div>
                     </div>
                     <div className="column">
-                        <div className='project-description plug'>
+                        <div className="column">
+                            <div className='project-description'>
+                                <a href="https://pizza-exc.herokuapp.com/" target='_blank'><img src={ReactPizza} className='site-image' alt='okiedokie'/></a>
+                                <h3 className='section-header'>React Pizza</h3>
+                                <a href="https://pizza-exc.herokuapp.com/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
+                                <div className="portfolio-text">
+                                    <ul>
+                                        <li><b>Duration:</b> 2 weeks</li>
+                                        <li><b>Technologies used:</b> React, Redux, Redux Thunk</li>
+                                        <li>Mentored project with main purpose to get more practice with React, learn Redux and get to know about app optimization. During the project I got an idea of how to properly structure React application and the main principle of working with Redux.</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
