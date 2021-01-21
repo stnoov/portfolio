@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +80,7 @@
       <workItem from="1609675034163" duration="18000" />
       <workItem from="1610977880518" duration="6816000" />
       <workItem from="1611001164255" duration="9000" />
-      <workItem from="1611225279924" duration="304000" />
+      <workItem from="1611225279924" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
       <created>1608324202787</created>
@@ -220,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610984898369</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Change title and favicon">
+      <created>1611225607278</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1611225607278</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Change CV link">
+      <created>1611225856120</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611225856120</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +268,9 @@
     <MESSAGE value="Change height of contact section in mobile version" />
     <MESSAGE value="Add margin to CV in mobile version" />
     <MESSAGE value="Remove contact section, remove scroll to next section, add contacts to right bottom corner, add notifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove contact section, remove scroll to next section, add contacts to right bottom corner, add notifications" />
+    <MESSAGE value="Change title and favicon" />
+    <MESSAGE value="Change CV link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change CV link" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
