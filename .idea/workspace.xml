@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/react-pizza.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/NavLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/NavLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/AboutSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/ContactSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/ContactSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/PortfolioSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/WelcomeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/WelcomeSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/github.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gmail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/gmail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/go-electrical.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/go-electrical.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/linkedin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/okiedokie.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/okiedokie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pcpal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/pcpal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/telegram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +83,9 @@
       <workItem from="1608916567077" duration="12914000" />
       <workItem from="1608943941348" duration="96000" />
       <workItem from="1609675034163" duration="18000" />
-      <workItem from="1610977880518" duration="6742000" />
+      <workItem from="1610977880518" duration="6816000" />
+      <workItem from="1611001164255" duration="9000" />
+      <workItem from="1611225279924" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
       <created>1608324202787</created>
@@ -231,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608943804773</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Remove contact section, remove scroll to next section, add contacts to right bottom corner, add notifications">
+      <created>1610984898369</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610984898369</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +258,8 @@
     <MESSAGE value="Add links to footer" />
     <MESSAGE value="Change height of contact section in mobile version" />
     <MESSAGE value="Add margin to CV in mobile version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add margin to CV in mobile version" />
+    <MESSAGE value="Remove contact section, remove scroll to next section, add contacts to right bottom corner, add notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove contact section, remove scroll to next section, add contacts to right bottom corner, add notifications" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -277,13 +267,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Navigation/NavLinks.js</url>
           <line>30</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Navigation/BurgerMenu.js</url>
           <line>17</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
