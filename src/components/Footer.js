@@ -36,7 +36,7 @@ const Footer = styled.div`
 export default function FooterSection() {
     return (
     <Footer>
-        <a href="https://drive.google.com/file/d/1mgqjTAJYNgLzEDF0pFLgJwyuJEqB4IC7/view?usp=sharing" target="_blank"><button className='cv-button'>Download CV</button></a>
+        <a href="https://drive.google.com/file/d/14YxaZ-u_uQmR1vG6XyHN4Dnzk_aH6iTZ/view?usp=sharing" target="_blank"><button className='cv-button'>Download CV</button></a>
         <small>Copyright © 2021 Artem Sitnov • Oulu based Web Developer</small>
     </Footer>
     )
