@@ -4,6 +4,7 @@ import GoElectrical from '../assets/images/go-electrical.png'
 import PCPal from '../assets/images/pcpal.png'
 import ReactPizza from '../assets/images/react-pizza.png'
 import LanguageIcon from '@material-ui/icons/Language';
+import GitHub from '../assets/images/github.png'
 
 const Portfolio = styled.div`
     width: 100%;
@@ -23,8 +24,24 @@ const Portfolio = styled.div`
     border-color: #e7e7e7;
     align-items: center;
     color: white;
-    padding: 5px 10px;
+    padding: 2px 15px;
     cursor: pointer;
+  }
+  
+  .git-button {
+    display: flex;
+    margin-top: 5px;
+    background-color: #262626;
+    border-color: #e7e7e7;
+    align-items: center;
+    color: white;
+    padding: 2px 10px;
+    cursor: pointer;
+  }
+  .gitIcon {
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
   }
   
   .buttonIcon {
@@ -75,6 +92,13 @@ const Portfolio = styled.div`
     margin-bottom: 30px;
   }
   
+  .project-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
   @media (max-width: 768px) {
     height: 100%;
     .portfolio-header {
@@ -94,6 +118,14 @@ const Portfolio = styled.div`
     .site-image {
       display: none;
     }
+    .project-header {
+      flex-direction: column;
+      align-items: unset;
+      justify-content: unset;
+    }
+    .project-header h3 {
+      font-size: 18px;
+    }
     .site-button {
       display: flex;
     }
@@ -111,9 +143,11 @@ export default function PortfolioSection() {
                 <div className="row">
                     <div className="column">
                             <div className='project-description'>
-                                <a href="https://okiedokie.club/" target='_blank'><img src={OkieDokie} className='site-image' alt='okiedokie'/></a>
-                            <h3 className='section-header'>OKIEDOKIE.CLUB</h3>
-                                <a href="https://okiedokie.club/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
+                                <a href="https://okiedokie.club/" target='_blank'><img src={OkieDokie} className='site-image' alt='OkieDokie'/></a>
+                                <div className='project-header'>
+                                    <h3 className='section-header'>OkieDokie!</h3>
+                                    <a href="https://github.com/stnoov/okiedokie" target='_blank'><button className="git-button"> <img src={GitHub} alt='github' className='gitIcon'/>View code</button></a>
+                                </div>                                <a href="https://okiedokie.club/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
                             <div className="portfolio-text">
                                 <ul>
                                     <li><b>Duration:</b> 2 months</li>
@@ -126,8 +160,10 @@ export default function PortfolioSection() {
                     <div className="column">
                         <div className='project-description'>
                             <a href="https://goelectrical.netlify.app/" target='_blank'><img src={GoElectrical} className='site-image' alt='GoElectrical'/></a>
-                            <h3 className='section-header'>GO ELECTRICAL</h3>
-                            <a href="https://goelectrical.netlify.app/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
+                            <div className='project-header'>
+                                <h3 className='section-header'>GoElectrical</h3>
+                                <a href="https://github.com/stnoov/go-electrical" target='_blank'><button className="git-button"> <img src={GitHub} alt='github' className='gitIcon'/>View code</button></a>
+                            </div>                            <a href="https://goelectrical.netlify.app/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
                             <div className="portfolio-text">
                                 <ul>
                                     <li><b>Duration:</b> 1 month</li>
@@ -141,9 +177,11 @@ export default function PortfolioSection() {
                 <div className="row">
                     <div className="column">
                         <div className='project-description'>
-                            <a href="https://pcpal.netlify.app/" target='_blank'><img src={PCPal} className='site-image' alt='okiedokie'/></a>
-                            <h3 className='section-header'>PCPal</h3>
-                            <a href="https://pcpal.netlify.app/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
+                            <a href="https://pcpal.netlify.app/" target='_blank'><img src={PCPal} className='site-image' alt='PCPal'/></a>
+                            <div className='project-header'>
+                                <h3 className='section-header'>PCPal</h3>
+                                <a href="https://github.com/Morgrynn/autumn_project" target='_blank'><button className="git-button"> <img src={GitHub} alt='github' className='gitIcon'/>View code</button></a>
+                            </div>                            <a href="https://pcpal.netlify.app/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
                             <div className="portfolio-text">
                                 <ul>
                                     <li><b>Duration:</b> 1 month</li>
@@ -154,10 +192,12 @@ export default function PortfolioSection() {
                         </div>
                     </div>
                     <div className="column">
-                        <div className="column">
                             <div className='project-description'>
                                 <a href="https://pizza-exc.herokuapp.com/" target='_blank'><img src={ReactPizza} className='site-image' alt='okiedokie'/></a>
-                                <h3 className='section-header'>React Pizza</h3>
+                                <div className='project-header'>
+                                    <h3 className='section-header'>React Pizza</h3>
+                                    <a href="https://github.com/stnoov/react-pizza" target='_blank'><button className="git-button"> <img src={GitHub} alt='github' className='gitIcon'/>View code</button></a>
+                                </div>
                                 <a href="https://pizza-exc.herokuapp.com/" target='_blank'><button className="site-button"> <LanguageIcon className='buttonIcon'/>View site</button></a>
                                 <div className="portfolio-text">
                                     <ul>
@@ -167,7 +207,6 @@ export default function PortfolioSection() {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
