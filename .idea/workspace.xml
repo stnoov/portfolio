@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3177967c-2a1e-4424-b58c-e91e00398bfa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/PortfolioSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sections/AboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sections/AboutSection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <workItem from="1611001164255" duration="9000" />
       <workItem from="1611225279924" duration="608000" />
       <workItem from="1611244600969" duration="61000" />
-      <workItem from="1611305919228" duration="2253000" />
+      <workItem from="1611305919228" duration="2562000" />
     </task>
     <task id="LOCAL-00001" summary="All-in-One commit: Add sections, add anchors to sections, small changes to design">
       <created>1608324202787</created>
@@ -243,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611244635301</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add github links to projects">
+      <created>1611308290094</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1611308290094</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +289,8 @@
     <MESSAGE value="Remove contact section, remove scroll to next section, add contacts to right bottom corner, add notifications" />
     <MESSAGE value="Change title and favicon" />
     <MESSAGE value="Change CV link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change CV link" />
+    <MESSAGE value="Add github links to projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add github links to projects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
